@@ -129,3 +129,8 @@
 * {
     border-radius: 0;
 }
+
+/* Menu background opacity */
+window.background {
+    background-color: rgba(227, 234, 223, 0.85);
+}
