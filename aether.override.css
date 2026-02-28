@@ -1,18 +1,113 @@
+/* Frieren Theme Override */
+
+/* Dynamic Color Palette */
+@define-color background #e3eadf;
+@define-color foreground #1d2837;
+@define-color black #334247;
+@define-color red #61727a;
+@define-color green #4b775e;
+@define-color yellow #6b8276;
+@define-color blue #2b4e55;
+@define-color magenta #395857;
+@define-color cyan #436961;
+@define-color white #d4ddd0;
+@define-color bright_black #475a58;
+@define-color bright_red #909a9a;
+@define-color bright_green #6d9471;
+@define-color bright_yellow #a1b99c;
+@define-color bright_blue #61727a;
+@define-color bright_magenta #6b8276;
+@define-color bright_cyan #909a9a;
+@define-color bright_white #e3eadf;
+
+/* Base GTK theme variables */
+@define-color theme_bg_color @background;
+@define-color theme_fg_color @foreground;
+@define-color theme_base_color @background;
+@define-color theme_text_color @foreground;
+@define-color theme_selected_bg_color @blue;
+@define-color theme_selected_fg_color @background;
+@define-color insensitive_bg_color alpha(@background, 0.5);
+@define-color insensitive_fg_color alpha(@foreground, 0.5);
+@define-color insensitive_base_color @background;
+@define-color theme_unfocused_bg_color @background;
+@define-color theme_unfocused_fg_color @foreground;
+@define-color theme_unfocused_base_color @background;
+@define-color theme_unfocused_text_color @foreground;
+@define-color theme_unfocused_selected_bg_color @blue;
+@define-color theme_unfocused_selected_fg_color @background;
+
+/* Adwaita Color Overrides */
+@define-color accent_bg_color @blue;
+@define-color accent_fg_color @bright_white;
+@define-color accent_color @cyan;
+@define-color window_bg_color @background;
+@define-color window_fg_color @foreground;
+@define-color view_bg_color @background;
+@define-color view_fg_color @foreground;
+@define-color sidebar_bg_color @background;
+@define-color sidebar_fg_color @foreground;
+@define-color sidebar_backdrop_color @background;
+@define-color sidebar_shade_color @background;
+@define-color headerbar_bg_color alpha(@foreground, 0.05);
+@define-color headerbar_fg_color @foreground;
+@define-color headerbar_backdrop_color @background;
+@define-color headerbar_shade_color @background;
+@define-color headerbar_border_color alpha(@foreground, 0.15);
+@define-color card_bg_color alpha(@foreground, 0.03);
+@define-color card_fg_color @foreground;
+@define-color card_shade_color @background;
+@define-color thumbnail_bg_color @background;
+@define-color thumbnail_fg_color @foreground;
+@define-color shade_color @background;
+@define-color scrollbar_outline_color @background;
+@define-color popover_bg_color @background;
+@define-color popover_fg_color @foreground;
+@define-color dialog_bg_color @background;
+@define-color dialog_fg_color @foreground;
+@define-color destructive_bg_color @red;
+@define-color destructive_fg_color @bright_white;
+@define-color success_bg_color @green;
+@define-color success_fg_color @bright_white;
+@define-color warning_bg_color @yellow;
+@define-color warning_fg_color @bright_white;
+@define-color error_bg_color @red;
+@define-color error_fg_color @bright_white;
+@define-color borders alpha(@foreground, 0.15);
+@define-color window_backdrop_color @background;
+@define-color view_backdrop_color @background;
+@define-color menu_bg_color @background;
+@define-color menu_fg_color @foreground;
+@define-color entry_bg_color alpha(@foreground, 0.03);
+@define-color entry_fg_color @foreground;
+@define-color button_bg_color alpha(@foreground, 0.05);
+@define-color button_fg_color @foreground;
+@define-color tooltip_bg_color @background;
+@define-color tooltip_fg_color @foreground;
+@define-color tooltip_border_color alpha(@foreground, 0.15);
+@define-color osd_bg_color @background;
+@define-color osd_fg_color @foreground;
+@define-color osd_border_color alpha(@foreground, 0.15);
+@define-color dropdown_bg_color @background;
+@define-color dropdown_fg_color @foreground;
+@define-color dropdown_hover_bg_color alpha(@blue, 0.3);
+@define-color dropdown_selected_bg_color @blue;
+@define-color dropdown_selected_fg_color @background;
+@define-color scrollbar_slider_color alpha(@foreground, 0.3);
+@define-color scrollbar_slider_hover_color alpha(@foreground, 0.5);
+@define-color scrollbar_slider_active_color @foreground;
+@define-color selection_bg_color @blue;
+@define-color selection_fg_color @background;
+@define-color placeholder_text_color alpha(@foreground, 0.5);
+@define-color dim_label_color alpha(@foreground, 0.55);
+@define-color link_color @blue;
+@define-color link_visited_color @magenta;
+
+* {
+    border-radius: 0;
+}
+
 window {
-    background-color: rgba(227, 234, 223, 0.95);
-    color: #1d2837;
-}
-
-.menu-item {
-    color: #1d2837;
-}
-
-.menu-item:hover {
-    background-color: rgba(43, 78, 85, 0.15);
-    color: #2b4e55;
-}
-
-.menu-item:selected {
-    background-color: #2b4e55;
-    color: #e3eadf;
+    background-color: @background;
+    color: @foreground;
 }
