@@ -1,33 +1,33 @@
 # Frieren Theme 🧝
 
-Um tema para Omarchy inspirado no anime **Frieren: Beyond Journey's End**.
+An Omarchy theme inspired by the anime **Frieren: Beyond Journey's End**.
 
-A paleta de cores foi extraída diretamente do wallpaper do anime, capturando os tons de azul frio, verde esmeralda da floresta e o branco acinzentado da Frieren.
+The color palette was extracted directly from the anime wallpaper, capturing the cold blue tones, emerald forest greens, and the grayish white of Frieren's design.
 
 ---
 
-## 🎨 Paleta de Cores
+## 🎨 Color Palette
 
-| Nome          | Hex       | Uso                          |
+| Name          | Hex       | Usage                        |
 |---------------|-----------|------------------------------|
-| Background    | `#e3eadf` | Fundo principal (light)      |
-| Surface       | `#d4ddd0` | Superfícies, cards           |
-| Text          | `#1d2837` | Texto principal              |
-| Accent        | `#2b4e55` | Destaque (azul frio)         |
-| Green         | `#4b775e` | Verde esmeralda da floresta  |
-| Green Light   | `#6d9471` | Verde médio                  |
-| Stone         | `#6b8276` | Cinza pedra                  |
-| Muted         | `#909a9a` | Texto secundário             |
+| Background    | `#e3eadf` | Main background (light)      |
+| Surface       | `#d4ddd0` | Surfaces, cards              |
+| Text          | `#1d2837` | Main text                    |
+| Accent        | `#2b4e55` | Highlight (cold blue)        |
+| Green         | `#4b775e` | Emerald forest green         |
+| Green Light   | `#6d9471` | Medium green                 |
+| Stone         | `#6b8276` | Stone gray                   |
+| Muted         | `#909a9a` | Secondary text               |
 
 ---
 
-## 📦 Instalação
+## 📦 Installation
 
-```bash
-omarchy-theme-install https://github.com/SEU_USUARIO/frieren-theme.git
-```
+\`\`\`bash
+omarchy-theme-install https://github.com/arthurr-jpg/frieren-theme-for-omarchy.git
+\`\`\`
 
-Ou via menu: `Super + Alt + Space` → Install → Style → Theme
+Or via menu: \`Super + Alt + Space\` → Install → Style → Theme
 
 ---
 
@@ -37,17 +37,18 @@ Ou via menu: `Super + Alt + Space` → Install → Style → Theme
 
 ---
 
-## ➡️ Apps com tema aplicado
+## ➡️ Themed Apps
 
 - Hyprland
 - Kitty Terminal
+- Ghostty Terminal
 - Waybar
 - GTK
 - Neovim
 - btop
-- Mako (notificações)
-- Hyprlock (tela de bloqueio)
+- Mako (notifications)
+- Hyprlock (lock screen)
 
 ---
 
-*"Levei muito tempo para aprender a magia que faz as flores florescerem."* — Frieren
+*"It took a long time to learn the magic that makes flowers bloom."* — Frieren
