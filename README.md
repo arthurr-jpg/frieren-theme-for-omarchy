@@ -54,7 +54,7 @@ Or via menu: \`Super + Alt + Space\` → Install → Style → Theme
 
 ---
 
-## 🔧 Post-Installation
+## Post-Installation
 
 To apply rounded corners to the lock screen password field, run:
 ```bash
