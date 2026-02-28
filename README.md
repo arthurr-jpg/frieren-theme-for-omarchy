@@ -51,3 +51,12 @@ Or via menu: \`Super + Alt + Space\` → Install → Style → Theme
 
 ---
 
+
+---
+
+## 🔧 Post-Installation
+
+To apply rounded corners to the lock screen password field, run:
+```bash
+sed -i 's/rounding = 0/rounding = 16/' ~/.config/hypr/hyprlock.conf
+```
