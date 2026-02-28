@@ -1,8 +1,8 @@
-# Frieren Theme 
+# Frieren Theme
 
 An Omarchy theme inspired by the anime **Frieren: Beyond Journey's End**.
 
-The color palette was extracted directly from the anime wallpaper, capturing the cold blue tones, emerald forest greens, and the grayish white of Frieren's design.
+The color palette was extracted directly from the anime wallpaper, capturing the cold blue tones, emerald forest greens, and the grayish white of Frieren design.
 
 ---
 
@@ -21,17 +21,23 @@ The color palette was extracted directly from the anime wallpaper, capturing the
 
 ---
 
-##  Installation
+## Installation
 
-\`\`\`bash
-omarchy-theme-install https://github.com/arthurr-jpg/frieren-theme-for-omarchy.git
-\`\`\`
+    omarchy-theme-install https://github.com/arthurr-jpg/frieren-theme-for-omarchy.git
 
-Or via menu: \`Super + Alt + Space\` → Install → Style → Theme
+Or via menu: Super + Alt + Space -> Install -> Style -> Theme
 
 ---
 
-##  Preview
+## Post-Installation
+
+To apply rounded corners to the lock screen password field, run:
+
+    sed -i 's/rounding = 0/rounding = 16/' ~/.config/hypr/hyprlock.conf
+
+---
+
+## Preview
 
 ![Frieren Wallpaper](backgrounds/frieren.webp)
 
@@ -51,12 +57,4 @@ Or via menu: \`Super + Alt + Space\` → Install → Style → Theme
 
 ---
 
-
----
-
-## Post-Installation
-
-To apply rounded corners to the lock screen password field, run:
-```bash
-sed -i 's/rounding = 0/rounding = 16/' ~/.config/hypr/hyprlock.conf
-```
+"It took a long time to learn the magic that makes flowers bloom." - Frieren
