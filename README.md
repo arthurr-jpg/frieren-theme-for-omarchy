@@ -1,4 +1,4 @@
-# Frieren Theme 🧝
+# Frieren Theme 
 
 An Omarchy theme inspired by the anime **Frieren: Beyond Journey's End**.
 
@@ -6,7 +6,7 @@ The color palette was extracted directly from the anime wallpaper, capturing the
 
 ---
 
-## 🎨 Color Palette
+## Color Palette
 
 | Name          | Hex       | Usage                        |
 |---------------|-----------|------------------------------|
@@ -21,7 +21,7 @@ The color palette was extracted directly from the anime wallpaper, capturing the
 
 ---
 
-## 📦 Installation
+##  Installation
 
 \`\`\`bash
 omarchy-theme-install https://github.com/arthurr-jpg/frieren-theme-for-omarchy.git
@@ -31,13 +31,13 @@ Or via menu: \`Super + Alt + Space\` → Install → Style → Theme
 
 ---
 
-## 🖼️ Preview
+##  Preview
 
 ![Frieren Wallpaper](backgrounds/frieren.webp)
 
 ---
 
-## ➡️ Themed Apps
+## Themed Apps
 
 - Hyprland
 - Kitty Terminal
@@ -51,4 +51,3 @@ Or via menu: \`Super + Alt + Space\` → Install → Style → Theme
 
 ---
 
-*"It took a long time to learn the magic that makes flowers bloom."* — Frieren
