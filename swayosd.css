@@ -1,0 +1,45 @@
+/* Frieren Theme - SwayOSD (volume/brightness/caps-lock overlay) */
+
+window#osd {
+    border-radius: 999px;
+    border: 2px solid alpha(#2b4e55, 0.8);
+    background: alpha(#e3eadf, 0.92);
+}
+
+#container {
+    margin: 16px;
+}
+
+image,
+label {
+    color: #1d2837;
+}
+
+progressbar:disabled,
+image:disabled {
+    opacity: 0.5;
+}
+
+progressbar,
+segmentedprogress {
+    min-height: 6px;
+    border-radius: 999px;
+    background: transparent;
+    border: none;
+}
+
+trough,
+segment {
+    min-height: inherit;
+    border-radius: inherit;
+    border: none;
+    background: alpha(#1d2837, 0.15);
+}
+
+progress,
+segment.active {
+    min-height: inherit;
+    border-radius: inherit;
+    border: none;
+    background: #4b775e;
+}

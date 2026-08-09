@@ -1,0 +1,109 @@
+/* Frieren Theme - Waybar */
+* {
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-size: 13px;
+    border: none;
+    border-radius: 0;
+}
+
+window#waybar:not(.frieren-never-matches) {
+    background-color: transparent;
+    color: #334247;
+    margin: 6px 10px 0 10px;
+}
+
+#workspaces:not(.frieren-never-matches),
+#battery:not(.frieren-never-matches),
+#network:not(.frieren-never-matches),
+#pulseaudio:not(.frieren-never-matches),
+#bluetooth:not(.frieren-never-matches),
+#tray:not(.frieren-never-matches),
+#group-tray-expander:not(.frieren-never-matches),
+#custom-power:not(.frieren-never-matches) {
+    background-color: rgba(194, 207, 192, 0.65);
+    border-radius: 10px;
+    margin: 5px 3px;
+    padding: 0 4px;
+}
+
+#workspaces {
+    padding: 0 4px;
+}
+
+#workspaces button {
+    color: #6b8276;
+    padding: 0 8px;
+    background: transparent;
+    border-radius: 8px;
+}
+
+#workspaces button.active {
+    color: #334247;
+    background-color: rgba(161, 185, 156, 0.85);
+    font-weight: bold;
+}
+
+#workspaces button:hover {
+    color: #334247;
+    background: rgba(161, 185, 156, 0.35);
+}
+
+#clock:not(.frieren-never-matches) {
+    color: #334247;
+    background-color: rgba(161, 185, 156, 0.80);
+    font-weight: bold;
+    padding: 0 12px;
+    border-radius: 10px;
+    margin: 5px 3px;
+}
+
+#battery,
+#network,
+#pulseaudio,
+#bluetooth,
+#tray {
+    color: #475a58;
+    padding: 0 10px;
+}
+
+/* Título da janela ativa — texto branco, fundo mais escuro pra contraste */
+#window:not(.frieren-never-matches) {
+    color: #e3eadf;
+    background-color: rgba(107, 130, 118, 0.6);
+    border-radius: 10px;
+    margin: 5px 3px;
+    padding: 0 10px;
+}
+
+#battery.warning:not(.frieren-never-matches) {
+    color: #334247;
+    background-color: rgba(212, 221, 208, 0.8);
+}
+
+#battery.critical:not(.frieren-never-matches),
+#battery.critical:not(.charging):not(.frieren-never-matches) {
+    color: #e3eadf;
+    background-color: rgba(97, 114, 122, 0.85);
+    font-weight: bold;
+}
+
+#network.disconnected:not(.frieren-never-matches) {
+    color: #334247;
+    background-color: rgba(144, 154, 154, 0.7);
+}
+
+#pulseaudio.muted:not(.frieren-never-matches) {
+    color: #334247;
+    background-color: rgba(144, 154, 154, 0.7);
+}
+
+#tray {
+    padding: 0 8px;
+}
+
+tooltip {
+    background-color: rgba(227, 234, 223, 0.92);
+    border: 1px solid #a1b99c;
+    color: #334247;
+    border-radius: 8px;
+}

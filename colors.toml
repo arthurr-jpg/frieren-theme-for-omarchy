@@ -1,0 +1,28 @@
+# Frieren Theme - Colors
+# Palette extracted from the anime wallpaper
+
+[colors]
+# Backgrounds (light theme)
+background   = "#e3eadf"   # branco esverdeado claro (tom do vestido)
+surface      = "#d4ddd0"   # superfície levemente mais escura
+overlay      = "#c2cfc0"   # overlay suave
+
+# Foregrounds / texto
+text         = "#1d2837"   # azul escuro quase preto (fundo da floresta)
+subtext      = "#334247"   # cinza azulado escuro
+muted        = "#475a58"   # cinza esverdeado médio
+
+# Accent - Azul frio (céu/água do anime)
+accent       = "#2b4e55"   # azul frio profundo
+accent_light = "#61727a"   # azul frio médio
+accent_soft  = "#909a9a"   # azul acinzentado suave
+
+# Natureza (verdes da floresta)
+green        = "#4b775e"   # verde esmeralda escuro
+green_light  = "#6d9471"   # verde médio
+green_soft   = "#a1b99c"   # verde claro suave
+
+# Neutros
+stone        = "#6b8276"   # cinza pedra esverdeado
+slate        = "#395857"   # ardósia escura
+deep         = "#24414b"   # azul petróleo profundo
