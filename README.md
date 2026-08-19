@@ -30,7 +30,7 @@ The color palette was extracted directly from the anime wallpaper, capturing the
 
 ## Installation
 
-    omarchy-theme-install https://github.com/arthurr-jpg/frieren-theme-for-omarchy.git
+    omarchy-theme-install https://github.com/arthurr-jpg/omarchy-frieren-theme.git
 
 Or via menu: `Super + Alt + Space` -> `Install` -> `Theme`
 
