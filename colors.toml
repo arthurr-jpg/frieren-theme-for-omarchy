@@ -1,28 +1,23 @@
-# Frieren Theme - Colors
-# Palette extracted from the anime wallpaper
+accent = "#4b775e"
+cursor = "#1d2837"
+foreground = "#1d2837"
+background = "#e3eadf"
+selection_foreground = "#e3eadf"
+selection_background = "#6b8276"
 
-[colors]
-# Backgrounds (light theme)
-background   = "#e3eadf"   # branco esverdeado claro (tom do vestido)
-surface      = "#d4ddd0"   # superfície levemente mais escura
-overlay      = "#c2cfc0"   # overlay suave
-
-# Foregrounds / texto
-text         = "#1d2837"   # azul escuro quase preto (fundo da floresta)
-subtext      = "#334247"   # cinza azulado escuro
-muted        = "#475a58"   # cinza esverdeado médio
-
-# Accent - Azul frio (céu/água do anime)
-accent       = "#2b4e55"   # azul frio profundo
-accent_light = "#61727a"   # azul frio médio
-accent_soft  = "#909a9a"   # azul acinzentado suave
-
-# Natureza (verdes da floresta)
-green        = "#4b775e"   # verde esmeralda escuro
-green_light  = "#6d9471"   # verde médio
-green_soft   = "#a1b99c"   # verde claro suave
-
-# Neutros
-stone        = "#6b8276"   # cinza pedra esverdeado
-slate        = "#395857"   # ardósia escura
-deep         = "#24414b"   # azul petróleo profundo
+color0 = "#334247"
+color1 = "#b26262"
+color2 = "#4b775e"
+color3 = "#c2b98c"
+color4 = "#2b4e55"
+color5 = "#8f6b8a"
+color6 = "#61727a"
+color7 = "#d4ddd0"
+color8 = "#475a58"
+color9 = "#c17a7a"
+color10 = "#6d9471"
+color11 = "#d6cba0"
+color12 = "#61727a"
+color13 = "#a888a3"
+color14 = "#8ea6a3"
+color15 = "#e3eadf"
